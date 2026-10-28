@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Cafe | Home</title>
+    <link rel="stylesheet" href="cafe.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar" aria-label="Main Navigation">
+            <a href="index.html" class="logo">Gaming Cafe <span>CHAI &amp; GAMES</span></a>
+            <div class="nav-controls">
+                <button type="button" id="themeToggleBtn" class="theme-btn">Dark Mode</button>
+                <button type="button" id="hamburgerBtn" class="hamburger-btn" aria-label="Toggle Menu">&#9776;</button>
+            </div>
+            <ul id="navLinks" class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="menu.html">Menu &amp; Games</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html">Book a Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <span class="hero-badge">BOARD GAMES &bull; ARCADE &bull; CHAI &amp; SNACKS</span>
+                <h1>Good Chai, Great Games, Better Company</h1>
+                <p>Welcome to Gaming Cafe, a neighbourhood hangout for board games, arcade favourites, masala chai, and freshly made Indian snacks.</p>
+                <div class="hero-buttons">
+                    <a href="booking.html" class="btn">Book a Table</a>
+                    <a href="menu.html" class="btn btn-secondary">See the Menu</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-cafe.jpg" alt="A cosy cafe with board game tables and arcade machines">
+            </div>
+        </section>
+
+        <section>
+            <h2>What We Offer</h2>
+            <p class="section-intro">Bring your friends or family for a relaxed evening of games, chai, and snacks.</p>
+            <div class="card-grid">
+                <article class="card">
+                    <div>
+                        <h3>Indoor Games</h3>
+                        <p>Gather around the table for a relaxed game with friends or family.</p>
+                    </div>
+                    <ul class="tag-list">
+                        <li>Chess</li>
+                        <li>Ludo &amp; Carrom</li>
+                        <li>Cards &amp; Uno</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <div>
+                        <h3>Console &amp; Arcade Zone</h3>
+                        <p>Settle into a console booth or play a few rounds on our old-school arcade machines.</p>
+                    </div>
+                    <ul class="tag-list">
+                        <li>PS5: GTA 5, WWE &amp; FIFA</li>
+                        <li>Xbox Series X|S: GTA 5 &amp; Forza Horizon 6</li>
+                        <li>PS4 and Xbox One options too</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <div>
+                        <h3>Gamer-Friendly Kitchen</h3>
+                        <p>Take a break with paneer rolls, masala fries, samosas, chai, and cold mango lassi.</p>
+                    </div>
+                    <ul class="tag-list">
+                        <li>Paneer rolls and crispy samosas</li>
+                        <li>Masala chai and mango lassi</li>
+                        <li>Chai &amp; game deal on weekdays</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section>
+            <h2>A Peek Inside</h2>
+            <p class="section-intro">Use the buttons to look around the cafe.</p>
+            <div class="slider-box">
+                <div class="slider-frame">
+                    <img id="sliderImage" src="images/board-games.jpg" alt="Friends playing a board game at the cafe">
+                </div>
+                <div class="slider-caption-bar">
+                    <p id="sliderText">Pick a game, order some chai, and settle in.</p>
+                    <div class="slider-controls">
+                        <button type="button" id="prevSlideBtn" class="btn btn-secondary">Previous</button>
+                        <button type="button" id="nextSlideBtn" class="btn">Next</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <button type="button" id="backToTopBtn" title="Back to top">&uarr;</button>
+    <footer>
+        <div class="footer-inner">
+            <p>Open daily 11:00 to 23:00.</p>
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu &amp; Games</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html">Book a Table</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="cafe.js"></script>
+</body>
+</html>
