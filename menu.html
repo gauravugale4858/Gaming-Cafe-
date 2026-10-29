@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Cafe | Menu &amp; Games</title>
+    <link rel="stylesheet" href="cafe.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar" aria-label="Main Navigation">
+            <a href="index.html" class="logo">Gaming Cafe <span>CHAI &amp; GAMES</span></a>
+            <div class="nav-controls">
+                <button type="button" id="themeToggleBtn" class="theme-btn">Dark Mode</button>
+                <button type="button" id="hamburgerBtn" class="hamburger-btn" aria-label="Toggle Menu">&#9776;</button>
+            </div>
+            <ul id="navLinks" class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" class="active">Menu &amp; Games</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html">Book a Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="table-toolbar">
+                <div>
+                    <h1>Chai, Snacks &amp; Games</h1>
+                    <p class="section-intro">Grab a chai, share some familiar Indian snacks, and stay for a game. Prices are in Indian rupees.</p>
+                </div>
+                <button type="button" id="printMenuBtn" class="btn btn-secondary">Print Menu</button>
+            </div>
+
+            <h2>Food &amp; Drink Menu</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Item Name</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="3"><strong>Indian Snacks</strong></td>
+                            <td>Masala Fries</td>
+                            <td>Crispy fries tossed with chaat masala and served with mint chutney</td>
+                            <td>₹149</td>
+                        </tr>
+                        <tr>
+                            <td>Paneer Tikka Roll</td>
+                            <td>Grilled paneer, onions, and chutney wrapped in a soft roti</td>
+                            <td>₹199</td>
+                        </tr>
+                        <tr>
+                            <td>Masala Maggi</td>
+                            <td>Hot noodles with vegetables and a little extra spice</td>
+                            <td>₹129</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2"><strong>Meals &amp; Sweets</strong></td>
+                            <td>Butter Paneer Rice Bowl</td>
+                            <td>Paneer in a mild tomato gravy with rice and a side of raita</td>
+                            <td>₹279</td>
+                        </tr>
+                        <tr>
+                            <td>Ice Cream</td>
+                            <td>Choose from vanilla, chocolate, or mango</td>
+                            <td>₹99</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2"><strong>Chai &amp; Drinks</strong></td>
+                            <td>Masala Chai</td>
+                            <td>Freshly brewed tea with milk and warming spices</td>
+                            <td>₹69</td>
+                        </tr>
+                        <tr>
+                            <td>Mango Lassi</td>
+                            <td>Chilled yogurt drink blended with sweet mango</td>
+                            <td>₹129</td>
+                        </tr>
+                        <tr class="special-banner-row">
+                            <td colspan="4">Chai &amp; Game Deal: Any snack, masala chai, and 2-hour board game pass for ₹299 (Mon - Thu)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <h2>Games &amp; Console Rates</h2>
+            <p class="section-intro">Choose a console that suits you. Prices are per person, per hour. Xbox Series X|S is the current high-performance Xbox; Xbox One is the older option.</p>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Console</th>
+                            <th>Games</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>PS5</td>
+                            <td>GTA 5, WWE, FIFA / EA SPORTS FC</td>
+                            <td>₹200 / person / hour</td>
+                        </tr>
+                        <tr>
+                            <td>Xbox Series X|S</td>
+                            <td>GTA 5, Forza Horizon 6, WWE, FIFA / EA SPORTS FC</td>
+                            <td>₹200 / person / hour</td>
+                        </tr>
+                        <tr>
+                            <td>PS4</td>
+                            <td>GTA 5, WWE, FIFA / EA SPORTS FC</td>
+                            <td>₹120 / person / hour</td>
+                        </tr>
+                        <tr>
+                            <td>Xbox One</td>
+                            <td>GTA 5, Forza Horizon 5, WWE, FIFA / EA SPORTS FC</td>
+                            <td>₹120 / person / hour</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <button type="button" id="backToTopBtn" title="Back to top">&uarr;</button>
+    <footer>
+        <div class="footer-inner">
+            <p>Open daily 11:00 to 23:00.</p>
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu &amp; Games</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html">Book a Table</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="cafe.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Cafe | Gallery</title>
+    <link rel="stylesheet" href="cafe.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar" aria-label="Main Navigation">
+            <a href="index.html" class="logo">Gaming Cafe <span>CHAI &amp; GAMES</span></a>
+            <div class="nav-controls">
+                <button type="button" id="themeToggleBtn" class="theme-btn">Dark Mode</button>
+                <button type="button" id="hamburgerBtn" class="hamburger-btn" aria-label="Toggle Menu">&#9776;</button>
+            </div>
+            <ul id="navLinks" class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu &amp; Games</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="booking.html">Book a Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Cafe &amp; Gaming Gallery</h1>
+            <p class="section-intro">Click on any photo below to open it in a larger lightbox view.</p>
+            <div class="gallery-grid">
+                <article class="gallery-item">
+                    <img src="images/hero-cafe.jpg" alt="The cafe lounge with board game tables">
+                    <div class="gallery-caption">
+                        <h3>Main Tabletop Lounge</h3>
+                        <p>Spacious wooden tables designed for big board games and food platters.</p>
+                    </div>
+                </article>
+                <article class="gallery-item">
+                    <img src="images/arcade-lounge.jpg" alt="Glowing retro arcade cabinets and pinball machines lined up against a brick wall">
+                    <div class="gallery-caption">
+                        <h3>Retro Arcade Alley</h3>
+                        <p>Classic 80s and 90s upright arcade machines and pinball tables.</p>
+                    </div>
+                </article>
+                <article class="gallery-item">
+                    <img src="images/board-games.jpg" alt="Friends playing a strategy board game together">
+                    <div class="gallery-caption">
+                        <h3>Strategy Game Nights</h3>
+                        <p>Gather your group for chess, ludo, carrom, cards, or Uno.</p>
+                    </div>
+                </article>
+                <article class="gallery-item">
+                    <img src="images/console-booth.jpg" alt="Private console booth with leather couch, controllers, milkshakes, and large TV">
+                    <div class="gallery-caption">
+                        <h3>Private Console Booths</h3>
+                        <p>Choose a PS5, Xbox Series X|S, PS4, or Xbox One console.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <div id="lightboxModal" class="lightbox" role="dialog" aria-modal="true" aria-label="Image Preview">
+            <div class="lightbox-content">
+                <img id="lightboxImg" src="images/hero-cafe.jpg" alt="Expanded gallery photo">
+                <h3 id="lightboxCaption">Photo Preview</h3>
+                <button type="button" id="lightboxCloseBtn" class="btn lightbox-close">Close Preview</button>
+            </div>
+        </div>
+    </main>
+    <button type="button" id="backToTopBtn" title="Back to top">&uarr;</button>
+    <footer>
+        <div class="footer-inner">
+            <p>Open daily 11:00 to 23:00.</p>
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu &amp; Games</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html">Book a Table</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="cafe.js"></script>
+</body>
+</html>
