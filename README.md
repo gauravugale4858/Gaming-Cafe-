@@ -1,1 +1,3 @@
 Gaming Cafe is a multi-page website built using HTML, CSS, and JavaScript. It includes four main pages: a home page (index.html), a food menu (menu.html), a photo gallery (gallery.html), and a booking page (booking.html). Visitors can explore different play areas like the arcade lounge, console booths, and board games. They can also view pictures of cafe food and drinks, including smash burgers, nachos, shakes, waffles, and lattes. Finally, the project uses a style file (cafe.css) for the page design, a script file (cafe.js) for interactive features, and an arcade sound file (arcade-jingle.wav) stored in the images folder
+
+Link of the Project : https://gaming-cafe-alpha.vercel.app/
